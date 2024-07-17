@@ -1,0 +1,205 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-width: 290px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+body{
+  background-color:rgb(255, 255, 179);
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 350px;
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+#navbar ul {
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 0px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size:2rem;
+}
+
+.tipos, .navbar {
+  font-family: 'Anton', sans-serif;
+  text-align:center;
+  margin:50px;
+  font-weight:bold;
+}
+.tipos {
+  font-size:5rem;
+}
+.navbar {  
+  font-size:3rem;
+}
+img {
+  display:flex;
+  width: 100%;
+  object-fit: cover;
+  margin: 50px auto;
+  max-width:1000px;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+}
+.subtitulo {
+  font-family: 'Raleway', sans-serif;
+  margin-left:58px;
+  font-size:2.5rem;
+}
+p{
+  font-family: 'Anton';
+  font-size: 1.7rem;
+  letter-spacing: 0.7px;
+  text-align: justify;
+  margin:20px 60px;
+}
+#Tipos_de_Pokemon ul {
+  max-width: 550px;
+  margin: 10 140px ;
+  text-align: left;
+  line-height: 1.6;
+  font-size:1.8rem
+}
+
+#Tipos_de_Pokemon li {
+  margin: 10px 0;
+  list-style:none;
+}
+.tpye {
+  text-align:center;
+  color:white;
+  width:200px;
+  height:auto;
+  font-weight:bold;
+  padding:auto;
+  border-radius:30%;
+  border: 2px solid black;
+  
+}
+.Acero{
+    background-color:rgb(77, 102, 128);
+}
+.Agua{
+  background-color:rgb(0, 102, 255);
+}
+.Bicho{
+  background-color:rgb(0, 153, 0);
+}
+.Dragon{
+  background-color:rgb(0, 0, 153);
+}
+.Electrico{
+  background-color:rgb(230, 230, 0);
+}
+.Fantasma{
+  background-color:rgb(153, 102, 255);
+}
+.Fuego{
+  background-color:red;
+}
+.Hada{
+  background-color:pink;
+}
+.Hielo{
+  background-color:rgb(51, 204, 255);
+}
+.Lucha{
+  background-color:rgb(255, 102, 0);
+}
+.Normal{
+  background-color:rgb(128, 128, 128);
+}
+.Planta{
+  background-color:rgb(51, 204, 51);
+}
+.Psiquico{
+  background-color:rgb(255, 77, 136);
+}
+.Roca{
+  background-color:rgb(223, 191, 159);
+}
+.Siniestro{
+  background-color:rgb(57, 38, 19);
+}
+.Tierra{
+  background-color:rgb(153, 102, 51);
+}
+.Veneno{
+  background-color:purple;
+}
+.Volador{
+  background-color:rgb(153, 204, 255);
+}
+#Curiosidades_de_Tipos ul {
+  max-width: 1550px;
+  margin: 10 140px ;
+  text-align: left;
+  line-height: 1.6;
+  font-size:1.8rem
+}
+
+#Curiosidades_de_Tipos li {
+  margin: 10px 0;
+  list-style:disc;
+}
+
+@media only screen and (max-width: 1400px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 170px;
+  }
+
+  #navbar {
+    background-color: rgb(255, 255, 179);;
+    position: absolute;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    padding-bottom:50px;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
